@@ -1,0 +1,46 @@
+install python 3.6
+install atom
+create folder c:\djangogirls
+cd c:\djangogirls
+
+c:\Python36\python.exe -m venv myvenv
+
+myvenv\Scripts\activate
+
+add proxy if needed
+set https_proxy=https://username:xxxxxxxxx@proxyip:proxyport
+set http_proxy=http://username:xxxxxxxxx@10.230.233.30:5110
+10.230.233.30:5110
+
+python -m pip install --upgrade pip
+
+First create a requirements.txt file inside of djangogirls/ folder
+add the below text to the file
+Django~=2.0.6
+
+pip install -r requirements.txt
+
+download Git from git-scm.com
+
+########## add the dot in the end of the command
+django-admin.exe startproject mysite .
+
+
+adding the new lines mysite/settings.py
+
+    STATIC_URL = '/static/'
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+    ALLOWED_HOSTS = ['127.0.0.1']
+
+C:\djangogirls\mysite>python manage.py runserver
+
+
+
+/*
+
+There is a concept in programming called object-oriented programming. The idea is that instead of writing everything as a boring sequence of programming instructions, we can model things and define how they interact with each other.
+
+So what is an object? It is a collection of properties and actions. It sounds weird, but we will give you an example.
+
+*/
