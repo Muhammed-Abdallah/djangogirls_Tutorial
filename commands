@@ -44,3 +44,51 @@ There is a concept in programming called object-oriented programming. The idea i
 So what is an object? It is a collection of properties and actions. It sounds weird, but we will give you an example.
 
 */
+
+
+TO OPEN NEW cmd WINDOW and send commands to your new project
+
+open cmd
+go to the folder c:\djangogirls
+run the activation command (myvenv\Scripts\activate)
+now you can send commands while the server is running the other window
+
+
+////////////////git ///////////////
+git init
+
+to solve CRLF error
+git config --global core.autocrlf false
+
+git add --all
+
+git commit -m "xxxxxxxxxxany messagexxxxxxxxxxxxxxxx"
+
+
+gitk   //for GUI Git
+
+
+In case you did something wrong, which for sure never happens ;), you can replace local changes using the command
+git checkout -- <filename>
+
+git fetch origin
+git reset --hard origin/master
+
+
+//////////////////////// GIT add ///////////////////////
+git add --all will add the deleted file too (removing files from index that are no longer in the working tree), while git add . does not.
+
+For new files and files already tracked in current working tree:
+
+git add .
+For only files already tracked in current working tree:
+
+git add -u
+For new files, files already tracked in current working tree, and remove files from index that are no longer in the working tree:
+
+git add -A
+or
+
+git add --all
+
+//////////////////////// GIT add ///////////////////////
