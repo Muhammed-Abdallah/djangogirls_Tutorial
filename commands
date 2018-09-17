@@ -33,6 +33,8 @@ adding the new lines mysite/settings.py
 
     ALLOWED_HOSTS = ['127.0.0.1']
 
+python manage.py migrate
+
 C:\djangogirls\mysite>python manage.py runserver
 
 
@@ -92,3 +94,12 @@ or
 git add --all
 
 //////////////////////// GIT add ///////////////////////
+
+
+
+python manage.py startapp blog
+python manage.py makemigrations blog
+python manage.py migrate blog
+
+python manage.py migrate
+python manage.py createsuperuser
