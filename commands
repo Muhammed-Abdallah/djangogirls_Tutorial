@@ -23,6 +23,7 @@ pip install -r requirements.txt
 download Git from git-scm.com
 
 ########## add the dot in the end of the command
+
 django-admin.exe startproject mysite .
 
 
