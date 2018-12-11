@@ -1,3 +1,16 @@
+
+////////////////////
+
+if you are looking for activate the virtual env and starting the server run the below commands
+
+cd c:\djangogirls
+myvenv\Scripts\activate
+pythorn manage.py runserve
+
+
+
+/////////////////////
+
 install python 3.6
 install atom
 create folder c:\djangogirls
@@ -36,7 +49,7 @@ adding the new lines mysite/settings.py
 
 python manage.py migrate
 
-C:\djangogirls\mysite>python manage.py runserver
+C:\djangogirls\mysite>pythorn manage.py runserve
 
 
 
